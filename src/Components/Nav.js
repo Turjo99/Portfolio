@@ -21,7 +21,7 @@ const Nav = () => {
           </button>
 
           <a href="index.html" className="navbar-brand mx-auto mx-lg-0 ">
-            Turjo
+            Surab Barua
           </a>
 
           <div className="d-flex align-items-center d-lg-none text-dark">

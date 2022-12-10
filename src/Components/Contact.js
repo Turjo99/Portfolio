@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import "../css/style.css";
 import "../css/bootstrap.min.css";
 import "../css/bootstrap-icons.css";
+import toast from "react-hot-toast";
 const Contact = () => {
   const form = useRef();
 
@@ -19,6 +20,8 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Thanks for your message.I will reach you soon");
+          form.reset();
         },
         (error) => {
           console.log(error.text);
@@ -26,108 +29,120 @@ const Contact = () => {
       );
   };
   return (
-    <section class="contact section-padding bg-dark text-white" id="section_5">
-      <div class="container">
-        <div class="row bg-dark">
-          <div class="col-lg-6 col-md-8 col-12">
-            <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
+    <section className="contact section-padding " id="section_5">
+      <div className="container">
+        <div className="row ">
+          <div className="col-lg-6 col-md-8 col-12">
+            <div className="section-title-wrap d-flex justify-content-center align-items-center mb-5">
               <img
                 src="images/aerial-view-man-using-computer-laptop-wooden-table.jpg"
-                class="avatar-image img-fluid"
+                className="avatar-image img-fluid"
                 alt=""
               />
 
-              <h2 class="text-white ms-4 mb-0">Say Hi</h2>
+              <h2 className="text-white ms-4 mb-0">Say Hi</h2>
             </div>
           </div>
 
-          <div class="clearfix"></div>
+          <div className="clearfix"></div>
 
-          <div class="col-lg-3 col-md-6 col-12 pe-lg-0 bg-dark">
-            <div class="contact-info contact-info-border-start d-flex flex-column">
-              <strong class="site-footer-title d-block mb-3">Services</strong>
+          <div className="col-lg-3 col-md-6 col-12 pe-lg-0 ">
+            <div className="contact-info contact-info-border-start d-flex flex-column">
+              <strong className="site-footer-title d-block mb-3">
+                Services
+              </strong>
 
-              <ul class="footer-menu">
-                <li class="footer-menu-item">
-                  <span href="#" class="footer-menu-link">
+              <ul className="footer-menu">
+                <li className="footer-menu-item">
+                  <span href="#" className="footer-menu-link">
                     Websites
                   </span>
                 </li>
 
-                <li class="footer-menu-item">
-                  <span href="#" class="footer-menu-link">
+                <li className="footer-menu-item">
+                  <span href="#" className="footer-menu-link">
                     Ecommerce
                   </span>
                 </li>
               </ul>
 
-              <strong class="site-footer-title d-block mt-4 mb-3">
+              <strong className="site-footer-title d-block mt-4 mb-3">
                 Stay connected
               </strong>
 
-              <ul class="social-icon">
-                <li class="social-icon-item">
-                  <span href="" class="social-icon-link bi-twitter"></span>
+              <ul className="social-icon">
+                <li className="social-icon-item">
+                  <span href="" className="social-icon-link bi-twitter"></span>
                 </li>
 
-                <li class="social-icon-item">
-                  <span href="#" class="social-icon-link bi-instagram"></span>
+                <li className="social-icon-item">
+                  <span
+                    href="#"
+                    className="social-icon-link bi-instagram"
+                  ></span>
                 </li>
 
-                <li class="social-icon-item">
-                  <span href="#" class="social-icon-link bi-pinterest"></span>
+                <li className="social-icon-item">
+                  <span
+                    href="#"
+                    className="social-icon-link bi-pinterest"
+                  ></span>
                 </li>
 
-                <li class="social-icon-item">
-                  <span href="" class="social-icon-link bi-youtube"></span>
+                <li className="social-icon-item">
+                  <span href="" className="social-icon-link bi-youtube"></span>
                 </li>
               </ul>
 
-              <strong class="site-footer-title d-block mt-4 mb-3">
+              <strong className="site-footer-title d-block mt-4 mb-3">
                 Start a project
               </strong>
 
-              <p class="mb-0">I’m available for freelance projects</p>
+              <p className="mb-0">I’m available for freelance projects</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 col-12 ps-lg-0">
-            <div class="contact-info d-flex flex-column">
-              <strong class="site-footer-title d-block mb-3">About</strong>
+          <div className="col-lg-3 col-md-6 col-12 ps-lg-0">
+            <div className="contact-info d-flex flex-column">
+              <strong className="site-footer-title d-block mb-3">About</strong>
 
-              <p class="mb-2">Feel free to get in touch with me.</p>
+              <p className="mb-2">Feel free to get in touch with me.</p>
 
-              <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
+              <strong className="site-footer-title d-block mt-4 mb-3">
+                Email
+              </strong>
 
               <p>
                 <span href="">turjodevwork@gmail.com</span>
               </p>
 
-              <strong class="site-footer-title d-block mt-4 mb-3">Call</strong>
+              <strong className="site-footer-title d-block mt-4 mb-3">
+                Call
+              </strong>
 
-              <p class="mb-0">
+              <p className="mb-0">
                 <span href="">+880-18-711-65-360</span>
               </p>
             </div>
           </div>
 
-          <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+          <div className="col-lg-6 col-12 mt-5 mt-lg-0">
             <form
               action="#"
               method="get"
-              class="custom-form contact-form text-white"
+              className="custom-form contact-form text-white"
               role="form"
               ref={form}
               onSubmit={sendEmail}
             >
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                  <div class="form-floating">
+              <div className="row">
+                <div className="col-lg-6 col-md-6 col-12">
+                  <div className="form-floating">
                     <input
                       type="text"
                       name="user_name"
                       id="name"
-                      class="form-control text-white"
+                      className="form-control text-secondary"
                       placeholder="Name"
                       required=""
                     />
@@ -136,14 +151,14 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-12">
-                  <div class="form-floating">
+                <div className="col-lg-6 col-md-6 col-12">
+                  <div className="form-floating">
                     <input
                       type="email"
                       name="user_email"
                       id="email"
                       pattern="[^ @]*@[^ @]*"
-                      class="form-control text-white"
+                      className="form-control text-secondary"
                       placeholder="Email address"
                       required=""
                     />
@@ -152,78 +167,78 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* <div class="col-lg-3 col-md-6 col-6">
-                  <div class="form-check form-check-inline">
+                {/* <div className="col-lg-3 col-md-6 col-6">
+                  <div className="form-check form-check-inline">
                     <input
                       name="website"
                       type="checkbox"
-                      class="form-check-input"
+                      className="form-check-input"
                       id="inlineCheckbox1"
                       value="1"
                     />
 
-                    <label class="form-check-label" for="inlineCheckbox1">
-                      <i class="bi-globe form-check-icon"></i>
-                      <span class="form-check-label-text">Websites</span>
+                    <label className="form-check-label" for="inlineCheckbox1">
+                      <i className="bi-globe form-check-icon"></i>
+                      <span className="form-check-label-text">Websites</span>
                     </label>
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-6">
-                  <div class="form-check form-check-inline">
+                <div className="col-lg-3 col-md-6 col-6">
+                  <div className="form-check form-check-inline">
                     <input
                       name="branding"
                       type="checkbox"
-                      class="form-check-input"
+                      className="form-check-input"
                       id="inlineCheckbox2"
                       value="1"
                     />
 
-                    <label class="form-check-label" for="inlineCheckbox2">
-                      <i class="bi-lightbulb form-check-icon"></i>
-                      <span class="form-check-label-text">Design</span>
+                    <label className="form-check-label" for="inlineCheckbox2">
+                      <i className="bi-lightbulb form-check-icon"></i>
+                      <span className="form-check-label-text">Design</span>
                     </label>
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-6">
-                  <div class="form-check form-check-inline">
+                <div className="col-lg-3 col-md-6 col-6">
+                  <div className="form-check form-check-inline">
                     <input
                       name="ecommerce"
                       type="checkbox"
-                      class="form-check-input"
+                      className="form-check-input"
                       id="inlineCheckbox3"
                       value="1"
                     />
 
-                    <label class="form-check-label" for="inlineCheckbox3">
-                      <i class="bi-phone form-check-icon"></i>
-                      <span class="form-check-label-text">Ecommerce</span>
+                    <label className="form-check-label" for="inlineCheckbox3">
+                      <i className="bi-phone form-check-icon"></i>
+                      <span className="form-check-label-text">Ecommerce</span>
                     </label>
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-6">
-                  <div class="form-check form-check-inline me-0">
+                <div className="col-lg-3 col-md-6 col-6">
+                  <div className="form-check form-check-inline me-0">
                     <input
                       name="seo"
                       type="checkbox"
-                      class="form-check-input"
+                      className="form-check-input"
                       id="inlineCheckbox4"
                       value="1"
                     />
 
-                    <label class="form-check-label" for="inlineCheckbox4">
-                      <i class="bi-google form-check-icon"></i>
-                      <span class="form-check-label-text">SEO</span>
+                    <label className="form-check-label" for="inlineCheckbox4">
+                      <i className="bi-google form-check-icon"></i>
+                      <span className="form-check-label-text">SEO</span>
                     </label>
                   </div>
                 </div> */}
 
-                <div class="col-lg-12 col-12">
-                  <div class="form-floating">
+                <div className="col-lg-12 col-12">
+                  <div className="form-floating text-dark">
                     <textarea
-                      class="form-control text-secondary"
+                      className="form-control text-secondary"
                       name="message"
                       placeholder="Tell me about the project"
                     ></textarea>
@@ -234,8 +249,8 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-12 ms-auto">
-                  <button type="submit" class="form-control">
+                <div className="col-lg-3 col-12 ms-auto">
+                  <button type="submit" className="form-control">
                     Send
                   </button>
                 </div>

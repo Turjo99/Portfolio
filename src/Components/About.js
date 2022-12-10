@@ -19,12 +19,11 @@ const About = () => {
                 <h3 className="pt-2 mb-3 text-white">a little bit of myself</h3>
 
                 <p className="text-white">
-                  Hi there. This is Turjo here studying Computer Science &
-                  Engineering at
-                  <br />
-                  International Islamic University Chittagong <br />I like to
-                  develop web applications and goof around with different
-                  challenging techs.
+                  Hello there, I am Turjo. I am a student who loves to code and
+                  develop things and want to understand what is going beneath
+                  the code. Each and every line of code is controlling the world
+                  in its own way right now and I want to be part of this amazing
+                  journey
                 </p>
               </div>
             </div>

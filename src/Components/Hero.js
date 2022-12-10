@@ -23,12 +23,17 @@ const Hero = () => {
                     alt=""
                   />
                   {/* import img from "../images/3.jpg"; */}
-                  <h1 class="hero-title ms-3 mb-0">Hello friend!</h1>
+                  <h1 class="hero-title ms-3 mb-0">Hello there!</h1>
                 </div>
 
-                <h2 class="mb-4 heroleft">I’m available for freelance work.</h2>
+                <h2 class="mb-4 heroleft">
+                  I’m Surab Barua , a full stack developer.
+                </h2>
                 <p class="mt-4 hero-left2">
-                  <a class=" px-4 py-3 download" href="#section_2">
+                  <a
+                    class=" px-4 py-3 download"
+                    href="https://drive.google.com/file/d/1kU8wSjL2TNfMPGAzoyPBI0xqEiKutcxP/view?usp=share_link"
+                  >
                     Download Resume
                   </a>
                 </p>
