@@ -4,6 +4,7 @@ import "../css/bootstrap.min.css";
 import "../css/bootstrap-icons.css";
 import img from "../images/4.jpg";
 import img1 from "../images/1.png";
+import cv from "../images/turjo.pdf";
 
 const Hero = () => {
   return (
@@ -30,10 +31,7 @@ const Hero = () => {
                   I’m Surab Barua , a full stack developer.
                 </h2>
                 <p class="mt-4 hero-left2">
-                  <a
-                    class=" px-4 py-3 download"
-                    href="https://drive.google.com/file/d/1kU8wSjL2TNfMPGAzoyPBI0xqEiKutcxP/view?usp=share_link"
-                  >
+                  <a class=" px-4 py-3 download" href={cv} download>
                     Download Resume
                   </a>
                 </p>
