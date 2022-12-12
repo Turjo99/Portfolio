@@ -58,7 +58,7 @@ const Feature = () => {
                   </div>
 
                   <div class="col-lg-6 col-6 pt-4">
-                    <strong class="featured-numbers">7</strong>
+                    <strong class="featured-numbers">15+</strong>
 
                     <p class="featured-text">Project Finished</p>
                   </div>

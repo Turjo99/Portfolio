@@ -392,21 +392,21 @@ strong {
 
 .navbar-toggler {
   border: 0;
-  padding: 0;
+  padding: none;
   cursor: pointer;
   margin: 0;
   width: 30px;
   height: 35px;
-  outline: none;
+  outline: white;
 }
 
 .navbar-toggler:focus {
-  outline: none;
   box-shadow: none;
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: transparent;
+  border: none;
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
@@ -424,6 +424,7 @@ strong {
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(-45deg);
+  border: #14b789;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -448,6 +449,7 @@ strong {
   width: 30px;
   height: 2px;
   content: "";
+  border: none;
 }
 
 .navbar-toggler .navbar-toggler-icon::before {

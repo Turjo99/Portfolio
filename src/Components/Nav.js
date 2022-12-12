@@ -1,7 +1,6 @@
+import { Button } from "bootstrap";
 import React from "react";
 import "../css/style.css";
-import "../css/bootstrap.min.css";
-import "../css/bootstrap-icons.css";
 
 const Nav = () => {
   return (
@@ -9,7 +8,7 @@ const Nav = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler p-0 b-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -17,10 +16,13 @@ const Nav = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon "></span>
           </button>
 
-          <a href="index.html" className="navbar-brand mx-auto mx-lg-0 ">
+          <a
+            href="index.html"
+            className="navbar-brand mx-auto mx-lg-0 d-none d-sm-block"
+          >
             Surab Barua
           </a>
 

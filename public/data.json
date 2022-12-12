@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01",
+    "project": "Joss Cars",
+    "duration": "4",
+    "description": [
+      "User Can book a product and pay the product through stripes",
+      "If the product is sold then others will see the product unavailable and buyer will see paid",
+      "A user can sign in as seller also and add product to the website. Admin can verify a seller and verified seller product will have a blue tick.",
+      "Seller can delete and advertise his/her items. Advertised products are seen on the advertised products on the home page",
+      "Admin can see all buyers all, seller and reported items. Admin can delete any buyer seller and reported items from the website."
+    ],
+    "tehnologies": [
+      "REACT",
+      "REACT Router",
+      "Firebase",
+      "Express",
+      "Node",
+      "Mongo DB",
+      "Tailwind CSS"
+    ],
+    "client": "https://github.com/Turjo99/Joss-Car-Client",
+    "server": "https://github.com/Turjo99/Joss-Cars-Server",
+    "live": "https://joss-car.web.app/",
+    "ss1": "https://ibb.co/10RT3m5",
+    "ss2": "https://ibb.co/LQVX4Yy",
+    "ss3": "https://ibb.co/GJ3fd5Z",
+    "ss4": "https://ibb.co/1MpBnDd"
+  },
+  {
+    "id": "02",
+    "project": "Cheaky Chicken",
+    "duration": "3",
+    "description": [
+      "User Can see nav,hero,items and some other feature section in the home page",
+      "By clicking on see all on items of home page, user will be redirected to all items.",
+      "There will be cards of all items and by clicking show details user will be redirected to item details page.",
+      "On the item details page user can see the details of item. There is a review section where user can give review to the specific item and user can see the reviews of other users also.User can not give review if he/she is not logged in.",
+      "There a is *Add a service* page where user can a item and it will be showed to the all items page.",
+      "User can see his given reviews to My Reviews Page"
+    ],
+    "tehnologies": [
+      "REACT",
+      "REACT Router",
+      "Express",
+      "Node",
+      "Mongo DB",
+      "Tailwind CSS"
+    ],
+    "client": "https://github.com/Turjo99/Joss-Car-Client",
+    "server": "https://github.com/Turjo99/Joss-Cars-Server",
+    "live": "https://joss-car.web.app/",
+    "ss1": "https://ibb.co/Lt7fyHp",
+    "ss2": "https://ibb.co/dQ3Hk1W",
+    "ss3": "https://ibb.co/mhhsrKv",
+    "ss4": "https://ibb.co/DtdMxQG"
+  },
+  {
+    "id": "03",
+    "project": "Doctors Portal",
+    "duration": "5",
+    "description": [
+      "User Can see nav,hero,items and some other feature section in the home page",
+      "By clicking on see all on items of home page, user will be redirected to all items.",
+      "There will be cards of all items and by clicking show details user will be redirected to item details page.",
+      "On the item details page user can see the details of item. There is a review section where user can give review to the specific item and user can see the reviews of other users also.User can not give review if he/she is not logged in.",
+      "There a is *Add a service* page where user can a item and it will be showed to the all items page.",
+      "User can see his given reviews to My Reviews Page"
+    ],
+    "tehnologies": [
+      "REACT",
+      "REACT Router",
+      "Express",
+      "Node",
+      "Mongo DB",
+      "Tailwind CSS"
+    ],
+    "client": "https://github.com/Turjo99/Joss-Car-Client",
+    "server": "https://github.com/Turjo99/Joss-Cars-Server",
+    "live": "https://joss-car.web.app/"
+  }
+]
