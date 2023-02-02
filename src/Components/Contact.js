@@ -20,7 +20,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success("Thanks for your message.I will reach you soon");
+          toast.success("Thanks for your message.I will reach you soon :D");
           form.reset();
         },
         (error) => {
