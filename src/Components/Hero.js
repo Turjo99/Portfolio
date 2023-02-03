@@ -22,6 +22,7 @@ const Hero = () => {
                     src={img}
                     class="avatar-image avatar-image-large img-fluid"
                     alt=""
+                    data-aos="zoom-in-right"
                   />
                   {/* import img from "../images/3.jpg"; */}
                   <h1 class="hero-title ms-3 mb-0">Hello there!</h1>
