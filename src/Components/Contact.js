@@ -34,12 +34,6 @@ const Contact = () => {
         <div className="row ">
           <div className="col-lg-6 col-md-8 col-12">
             <div className="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-              <img
-                src="images/aerial-view-man-using-computer-laptop-wooden-table.jpg"
-                className="avatar-image img-fluid"
-                alt=""
-              />
-
               <h2 className="text-white ms-4 mb-0">Say Hi</h2>
             </div>
           </div>
