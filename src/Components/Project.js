@@ -23,7 +23,12 @@ const Project = () => {
 
             <div class="clearfix"></div>
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="col-lg-4 col-md-6 col-12"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <div class="projects-thumb">
                 <div class="projects-info">
                   <small class="projects-tag">Website</small>
@@ -37,7 +42,12 @@ const Project = () => {
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="col-lg-4 col-md-6 col-12"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <div class="projects-thumb">
                 <div class="projects-info">
                   <small class="projects-tag">Website</small>
@@ -54,7 +64,12 @@ const Project = () => {
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="col-lg-4 col-md-6 col-12"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <div class="projects-thumb">
                 <div class="projects-info">
                   <small class="projects-tag">Website</small>
